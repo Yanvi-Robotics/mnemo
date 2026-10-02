@@ -362,7 +362,7 @@ func installRaycastScripts(home, mnemoPath string) string {
 # @raycast.title Mnemo: Search
 # @raycast.description Search past AI sessions and knowledge
 # @raycast.author 0xraghu
-# @raycast.authorURL https://github.com/Pilan-AI/mnemo
+# @raycast.authorURL https://github.com/Yanvi-Robotics/mnemo
 
 # Documentation:
 # @raycast.argument1 { "type": "text", "placeholder": "Enter search query" }
@@ -390,7 +390,7 @@ exit 0
 # @raycast.title Mnemo: Context
 # @raycast.description Get mnemo context for a project
 # @raycast.author 0xraghu
-# @raycast.authorURL https://github.com/Pilan-AI/mnemo
+# @raycast.authorURL https://github.com/Yanvi-Robotics/mnemo
 
 # Documentation:
 # @raycast.argument1 { "type": "text", "placeholder": "Project name" }
@@ -418,7 +418,7 @@ exit 0
 # @raycast.title Mnemo: Recent
 # @raycast.description Show recent AI coding sessions
 # @raycast.author 0xraghu
-# @raycast.authorURL https://github.com/Pilan-AI/mnemo
+# @raycast.authorURL https://github.com/Yanvi-Robotics/mnemo
 
 "%s" recent -d 7 2>&1
 

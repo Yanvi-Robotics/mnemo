@@ -6,7 +6,7 @@ Thanks for your interest in contributing to mnemo.
 
 ```bash
 # Clone the repo
-git clone https://github.com/Pilan-AI/mnemo.git
+git clone https://github.com/Yanvi-Robotics/mnemo.git
 cd mnemo
 
 # Install dependencies

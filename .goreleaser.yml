@@ -42,11 +42,11 @@ changelog:
 
 brews:
   - repository:
-      owner: Pilan-AI
+      owner: Yanvi-Robotics
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_PAT }}"
     directory: Formula
-    homepage: "https://github.com/Pilan-AI/mnemo"
+    homepage: "https://github.com/Yanvi-Robotics/mnemo"
     description: "Memory for AI-assisted development. Search your AI coding sessions."
     license: "MIT"
     install: |

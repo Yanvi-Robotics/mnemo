@@ -10,11 +10,17 @@ So I built mnemo. It indexes everything into one local SQLite database and gives
 
 ```bash
 # macOS / Linux
-brew install Pilan-AI/tap/mnemo
+brew install Yanvi-Robotics/tap/mnemo
 
-# From source
+# From source (compatibility path; see the migration note below)
 go install github.com/Pilan-AI/mnemo@latest
 ```
+
+> **Organization migration:** The repository has moved from `Pilan-AI` to
+> `Yanvi-Robotics`. Existing installations and local `~/.mnemo` data are
+> unaffected. GitHub and Homebrew follow the repository redirect. The Go module
+> path remains `github.com/Pilan-AI/mnemo` for now so existing source installs
+> keep working; any module-path change will be announced separately.
 
 ## Quick start
 
@@ -287,7 +293,9 @@ If you use one tool and remember exact strings, grep works. If you use multiple 
 
 ## What's next
 
-mnemo is the first tool from [Pilan](https://pilan.ai). Later this month, we're launching a native macOS app that sits on top of mnemo — knowledge graph, pattern recognition, session intelligence. If mnemo is the memory, Pilan is the brain.
+mnemo remains an open-source, local-first tool. It is maintained by
+[Yanvi Robotics](https://yanvi.ai), the team building Yanvi — your own AI
+computer.
 
 ## Uninstall
 
@@ -305,11 +313,11 @@ MIT. See [LICENSE](./LICENSE).
 
 ---
 
-[GitHub](https://github.com/Pilan-AI/mnemo) · [X](https://x.com/Pilan_AI) · [Pilan](https://pilan.ai)
+[GitHub](https://github.com/Yanvi-Robotics/mnemo) · [Yanvi](https://yanvi.ai)
 
 Built by 0xRaghu
 
-[LinkedIn](https://linkedin.com/in/0xRaghu) | [X](https://x.com/Pilan_AI)
+[LinkedIn](https://linkedin.com/in/0xRaghu)
 
 ---
 

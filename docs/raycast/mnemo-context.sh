@@ -10,7 +10,7 @@
 # @raycast.title Mnemo: Context
 # @raycast.description Get mnemo context for a project
 # @raycast.author 0xraghu
-# @raycast.authorURL https://github.com/Pilan-AI/mnemo
+# @raycast.authorURL https://github.com/Yanvi-Robotics/mnemo
 
 # Documentation:
 # @raycast.argument1 { "type": "text", "placeholder": "Project name" }

@@ -101,7 +101,7 @@ jobs:
           set -euo pipefail
 
           version="${RELEASE_TAG#v}"
-          formula="$(gh api 'repos/Pilan-AI/homebrew-tap/contents/Formula/mnemo.rb?ref=main' --jq '.content' | base64 --decode)"
+          formula="$(gh api 'repos/Yanvi-Robotics/homebrew-tap/contents/Formula/mnemo.rb?ref=main' --jq '.content' | base64 --decode)"
 
           if ! grep -Fq "version \"${version}\"" <<<"$formula"; then
             echo "Homebrew formula version does not match ${RELEASE_TAG}" >&2
@@ -109,7 +109,7 @@ jobs:
             exit 1
           fi
 
-          if ! grep -Fq "https://github.com/Pilan-AI/mnemo/releases/download/${RELEASE_TAG}/" <<<"$formula"; then
+          if ! grep -Fq "https://github.com/Yanvi-Robotics/mnemo/releases/download/${RELEASE_TAG}/" <<<"$formula"; then
             echo "Homebrew formula does not use ${RELEASE_TAG} release assets" >&2
             echo "$formula" >&2
             exit 1

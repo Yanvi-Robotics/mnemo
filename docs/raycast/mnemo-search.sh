@@ -10,7 +10,7 @@
 # @raycast.title Mnemo: Search
 # @raycast.description Search past AI sessions and knowledge
 # @raycast.author 0xraghu
-# @raycast.authorURL https://github.com/Pilan-AI/mnemo
+# @raycast.authorURL https://github.com/Yanvi-Robotics/mnemo
 
 # Documentation:
 # @raycast.argument1 { "type": "text", "placeholder": "Enter search query" }

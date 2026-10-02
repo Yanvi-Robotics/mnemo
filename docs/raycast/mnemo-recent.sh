@@ -10,7 +10,7 @@
 # @raycast.title Mnemo: Recent
 # @raycast.description Show recent AI coding sessions
 # @raycast.author 0xraghu
-# @raycast.authorURL https://github.com/Pilan-AI/mnemo
+# @raycast.authorURL https://github.com/Yanvi-Robotics/mnemo
 
 # Ensure mnemo is in PATH (Raycast doesn't inherit shell PATH)
 export PATH="$HOME/bin:$HOME/go/bin:$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
