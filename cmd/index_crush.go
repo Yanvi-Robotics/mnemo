@@ -102,7 +102,9 @@ func indexCrush(dbPath string) (int, int) {
 		sessionMsgs[sessionID] = append(sessionMsgs[sessionID], crushMsg{
 			role:      role,
 			content:   content,
-			timestamp: time.UnixMilli(createdAt),
+			// Crush stores created_at as Unix SECONDS, despite the
+			// "milliseconds" claim in its initial migration comment.
+			timestamp: time.Unix(createdAt, 0),
 			model:     modelStr,
 			provider:  providerStr,
 		})
